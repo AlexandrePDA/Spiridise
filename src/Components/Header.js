@@ -18,7 +18,7 @@ const Header = () => {
 
     return (
         <header className="bg-orange-s h-14 w-full shadow-md fixed top-0 left-0">
-            <div className="md:flex items-center justify-between">
+            <div className="md:flex items-center justify-between ">
                 <div className="font-bold cursor-pointer flex items-center font-dosis text-white">  
                 <img src={logo} alt="" className="w-20"/>
                 <p className="text-base md:text-xl">Spiridise</p>

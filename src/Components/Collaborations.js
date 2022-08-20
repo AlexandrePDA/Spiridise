@@ -1,33 +1,34 @@
 import React from 'react';
 import { useState , useEffect, useRef } from 'react';
 
+
 const logosMarques = [
     {
     name: "shine",
-    img: "../assets/logos-marques/shine.png"
+    img: require("../assets/logos-marques/shine.png")
     },
     {
       name: "adeo",
-      img: "../assets/logos-marques/adeo.png"
+      img: require("../assets/logos-marques/adeo.png")
     },
     {
       name: "arsen",
-      img: "../assets/logos-marques/arsen.png"
+      img: require("../assets/logos-marques/arsen.png")
     },
     {
       name: "mozaikrh",
-      img: "../assets/logos-marques/mozaikrh.png"
+      img: require("../assets/logos-marques/mozaikrh.png")
     },
     {
       name: "leroymerlin",
-      img: "../assets/logos-marques/leroymerlin.png"
+      img: require("../assets/logos-marques/leroymerlin.png")
     },
     {
       name: "blueCoders",
-      img: "../assets/logos-marques/bluecoders.png"
+      img: require("../assets/logos-marques/bluecoders.png")
     },
 ];
-const delay = 1400;
+const delay = 1500;
 
 const Collaborations = () => {
   const [index, setIndex] = useState(0);
@@ -38,6 +39,8 @@ const Collaborations = () => {
       clearTimeout(timeoutRef.current);
     }
   }
+
+
 
   useEffect(() => {
     resetTimeout();
@@ -56,19 +59,18 @@ const Collaborations = () => {
 
 
   return (
-    <div className="mx-auto overflow-hidden w-1/2">
+    <div className="mx-auto w-1/2 overflow-hidden md:w-1/4 md:mx-2/5 bg-slate-600">
       <div
-        className="whitespace-nowrap duration-1000"
+        className="whitespace-nowrap duration-1000 "
         style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
       >
         {logosMarques.map((logo, index) => (
           <ul
-            className="inline-block h-48 w-full rounded"
+            className="inline-block w-full"
             key={index}
           >
             <li>
-            {/* <img src={require('../assets/logos-marques/' + logo.name + '.png')} alt="" /> */}
-            <p>{logo.name}</p>
+            <img className="" src={logo.img} alt="" />
             </li>
           </ul>
         ))}
