@@ -1,76 +1,50 @@
 import React from 'react';
-import { useState , useEffect, useRef } from 'react';
-
 
 const logosMarques = [
     {
+    name: "leroymerlin",
+    img: require("../assets/logos-marques/leroymerlin.png"),
+    link: "https://www.leroymerlin.fr/produits/marques/naterial/?fwd=naterial"
+    },
+    {
     name: "shine",
-    img: require("../assets/logos-marques/shine.png")
+    img: require("../assets/logos-marques/shine.png"),
+    link: "https://www.shine.fr/blog/frais-pro-repas/"
     },
     {
       name: "adeo",
-      img: require("../assets/logos-marques/adeo.png")
+      img: require("../assets/logos-marques/adeo.png"),
+      link: "https://www.leroymerlin.fr/produits/marques/naterial/?fwd=naterial"
     },
     {
       name: "arsen",
-      img: require("../assets/logos-marques/arsen.png")
+      img: require("../assets/logos-marques/arsen.png"),
+      link: "https://arsen.co/"
     },
     {
       name: "mozaikrh",
-      img: require("../assets/logos-marques/mozaikrh.png")
-    },
-    {
-      name: "leroymerlin",
-      img: require("../assets/logos-marques/leroymerlin.png")
+      img: require("../assets/logos-marques/mozaikrh.png"),
+      link: "https://www.fondation-mozaik.org/"
     },
     {
       name: "blueCoders",
-      img: require("../assets/logos-marques/bluecoders.png")
+      img: require("../assets/logos-marques/bluecoders.png"),
+      link: "https://www.bluecoders.com/?gclid=Cj0KCQjw0oyYBhDGARIsAMZEuMu2CXhQI2KfkYh9UD_MIRd6uibFd_SZRGiygwxPlvyLh2JWrQ2SXskaAkbyEALw_wcB"
     },
 ];
-const delay = 1500;
 
 const Collaborations = () => {
-  const [index, setIndex] = useState(0);
-  const timeoutRef = useRef(null);
-
-  function resetTimeout() {
-    if (timeoutRef.current) {
-      clearTimeout(timeoutRef.current);
-    }
-  }
-
-
-
-  useEffect(() => {
-    resetTimeout();
-    timeoutRef.current = setTimeout(
-      () =>
-        setIndex((prevIndex) =>
-          prevIndex === logosMarques.length - 1 ? 0 : prevIndex + 1
-        ),
-      delay
-    );
-
-    return () => {
-      resetTimeout();
-    };
-  }, [index]);
-
-
+  
   return (
-    <div className="mx-auto w-1/2 overflow-hidden md:w-1/4 md:mx-2/5 bg-slate-600">
-      <div
-        className="whitespace-nowrap duration-1000 "
-        style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
-      >
-        {logosMarques.map((logo, index) => (
-          <ul
-            className="inline-block w-full"
-            key={index}
-          >
+    <div className="flex flex-col items-center justify-center mt-6 pb-6 w-full ">
+      <div className="flex flex-col items-center justify-between lg:flex lg:gap-x-8 lg:flex-row md:grid md:grid-rows-2 md:grid-flow-col md:gap-6">
+
+      {logosMarques.map((logo, index) => (
+          <ul key={index}>
             <li>
-            <img className="" src={logo.img} alt="" />
+              <a href={logo.link}>
+            <img className="h-30 w-28 mb-7" src={logo.img} alt="logo marques collaborations" />
+            </a>
             </li>
           </ul>
         ))}
