@@ -37,13 +37,13 @@ const Collaborations = () => {
   
   return (
     <div className="flex flex-col items-center justify-center mt-6 pb-6 w-full ">
-      <div className="flex flex-col items-center justify-between lg:flex lg:gap-x-8 lg:flex-row md:grid md:grid-rows-2 md:grid-flow-col md:gap-6">
+      <div className="flex flex-col items-center justify-between gap-y-8 lg:flex lg:gap-x-8 lg:flex-row md:grid md:grid-rows-2 md:grid-flow-col md:gap-6">
 
       {logosMarques.map((logo, index) => (
           <ul key={index}>
             <li>
               <a href={logo.link}>
-            <img className="h-30 w-28 mb-7" src={logo.img} alt="logo marques collaborations" />
+            <img className="h-30 w-28" src={logo.img} alt="logo marques collaborations" />
             </a>
             </li>
           </ul>

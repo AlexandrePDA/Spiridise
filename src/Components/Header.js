@@ -37,7 +37,7 @@ const Header = () => {
                             <a href={link.link} className="text-white hover:text-slate-800 duration-300" onClick={handleClick}>{link.name}</a>
                         </li>
                     ))}
-                    <a href="#contact" className="bg-orange-s text-white font-bold py-2 px-6 rounded duration-300 md:ml-8 md:mr-8 hover:text-orange-s hover:bg-white">Contact</a>
+                    <a href="#contact" className="bg-orange-s text-white font-bold py-2 px-6 rounded duration-300 md:ml-8 md:mr-8 hover:text-orange-s hover:bg-white" onClick={handleClick}>Contact</a>
                 </ul>
             </div>
         </header>
