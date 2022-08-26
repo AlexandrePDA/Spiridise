@@ -21,6 +21,8 @@ const Header = () => {
         setBurger(false)
     }
 
+    
+
     return (
         <header className="bg-blue-s h-14 w-full shadow-md fixed top-0 left-0">
             <div className="md:flex items-center justify-between ">

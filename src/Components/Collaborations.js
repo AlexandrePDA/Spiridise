@@ -43,7 +43,7 @@ const Collaborations = () => {
           <ul key={index}>
             <li>
               <a href={logo.link}>
-            <img className="h-30 w-28" src={logo.img} alt="logo marques collaborations" />
+            <img className="h-30 w-28 transition-all duration-300 hover:scale-150" src={logo.img} alt="logo marques collaborations" />
             </a>
             </li>
           </ul>

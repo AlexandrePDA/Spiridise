@@ -4,7 +4,7 @@ import CountUp from 'react-countup';
 
 const Accueil = () => {
     return (
-        <div className="w-screen h-screen flex flex-col items-center justify-center md:flex-row-reverse md:w-4/5 md:mx-auto">
+        <div id="accueil" className="w-screen h-screen  flex flex-col items-center justify-center md:flex-row-reverse md:w-4/5 md:mx-auto">
             <img src={picwoman} alt="marketing digital" className="max-w-xs md:w-6/12 md:max-w-xl" />
 
             <div className="flex flex-col items-center justify-center md:inline-block md:ml-8">
