@@ -6,7 +6,7 @@ import Techniques from '../Components/Techniques.js';
 import Creations from '../Components/Creations.js';
 import Presentations from "../Components/Presentations"
 import Contact from '../Components/Contact';
-import Footer from '../Components/Footer'
+import Footer from '../Components/Footer';
 
 
 const Home = () => {
