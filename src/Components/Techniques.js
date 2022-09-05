@@ -26,6 +26,12 @@ const Techniques = () => {
                   .pauseFor(2000)
                   .deleteAll()
                   .typeString("Ghostwriting")
+                  .deleteAll()
+                  .typeString("SEO")
+                  .pauseFor(2000)
+                  .deleteAll()
+                  .typeString("Rédaction")
+                  .pauseFor(2000)
                   .start();
               }}
               options={{
@@ -35,16 +41,17 @@ const Techniques = () => {
           </h2>
           <div>
             <h3 className="text-xl text-center mx-2 lg:text-left lg:mx-0 lg:text-4xl">
-              Des offres sur mesures
+              Un large panel sur-mesure
             </h3>
             <h4 className="text-xl text-center lg:text-left lg:text-4xl">
-              Pour vous 🚀
+              Pour tous vos projets 🚀
             </h4>
           </div>
         </div>
       </div>
 
       <section className="text-gray-600 body-font z-[-25]" >
+        <h3 className="text-center">Vous avez des objectifs ? <br/> Nous vous proposons des solutions digitales et efficaces. <br/> Vous avez besoin de :</h3>
         <div className="container px-5 py-24 mx-auto">
           {/* Copywritting */}
           <div className="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col" data-aos="zoom-in-up" data-aos-delay="75"
@@ -61,10 +68,9 @@ const Techniques = () => {
               <h2 className="text-orange-s text-2xl title-font font-medium mb-2">
                 Vendre ?
               </h2>
-              <h3 className="text-blue-s text-xl title-font font-medium mb-2">👉 Copywriting</h3>
+              <h3 className="text-blue-s text-xl title-font font-medium mb-2">💪 Copywriting</h3>
               <p className="leading-relaxed text-base">
-                Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                taxidermy. Gastropub indxgo juice poutine.
+                Utilisé dans les domaines du marketing digital et de la pub, le procédé du copywriting consiste à séduire afin de persuader ses prospects à passer à l'action.
               </p>
             </div>
           </div>
@@ -83,10 +89,9 @@ const Techniques = () => {
             <h2 className="text-orange-s text-2xl title-font font-medium mb-2">
                 Engager ?
               </h2>
-              <h3 className="text-blue-s text-xl title-font font-medium mb-2">👉 SEO</h3>
+              <h3 className="text-blue-s text-xl title-font font-medium mb-2">📈 SEO</h3>
               <p className="leading-relaxed text-base">
-                Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                taxidermy. Gastropub indxgo juice poutine.
+                Appeler aussi référencement naturel, le SEO vise à améliorer le positionnement d'un site ou d'une page afin de lui permettre d'atteindre le Graal (aussi connu sous le nom de première page des résultats).
               </p>
             </div>
             
@@ -106,10 +111,9 @@ const Techniques = () => {
             <h2 className="text-orange-s text-2xl title-font font-medium mb-2">
                 Expliquer ?
               </h2>
-              <h3 className="text-blue-s text-xl title-font font-medium mb-2">👉 Rédaction web</h3>
+              <h3 className="text-blue-s text-xl title-font font-medium mb-2">💻 Rédaction web</h3>
               <p className="leading-relaxed text-base">
-                Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                taxidermy. Gastropub indxgo juice poutine.
+                Cette technique généraliste permet de désigner tout type de rédaction utilisé sur le web. Elle est souvent à visé didactique et cherche à instruire son public (un peu comme maintenant).
               </p>
             </div>
             
@@ -129,10 +133,9 @@ const Techniques = () => {
             <h2 className="text-orange-s text-2xl title-font font-medium mb-2">
                 Raconter ?
               </h2>
-              <h3 className="text-blue-s text-xl title-font font-medium mb-2">👉 Storytelling</h3>
+              <h3 className="text-blue-s text-xl title-font font-medium mb-2">👸🏻 Storytelling</h3>
               <p className="leading-relaxed text-base">
-                Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                taxidermy. Gastropub indxgo juice poutine.
+                <span className="italic">Il était une fois ...</span> Oui mais non. Si cette méthode sert effectivement à narrer une histoire dans le but de créer un lien avec son lectorat, il faut tout de même que cela soit fait avec originalité et honnêteté.
               </p>
             </div>
           </div>
@@ -150,10 +153,9 @@ const Techniques = () => {
             <h2 className="text-orange-s text-2xl title-font font-medium mb-2">
                 Réécrire ?
               </h2>
-              <h3 className="text-blue-s text-xl title-font font-medium mb-2">👉 Ghostwriting</h3>
+              <h3 className="text-blue-s text-xl title-font font-medium mb-2">👻 Ghostwriting</h3>
               <p className="leading-relaxed text-base">
-                Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                taxidermy. Gastropub indxgo juice poutine.
+                Pas de fantôme ici, ne craignez rien. Le ghostwriting désigne la maîtrise, pour un auteur, de réécrire à la place de celui qui ne trouve pas les mots. Biographie, récit ou même thèse universitaire, multiples sont les cas de figure où l'on aurait bien besoin d'un petit coup de plume !
               </p>
             </div>
             
