@@ -1,18 +1,10 @@
 import React from "react";
-import malt from "../assets/maltlogo.png";
-import linkedin from "../assets/linkedin-logo.png";
 import calendly from "../assets/calendlylogo.png";
 
 const Contact = () => {
   return (
     <div id="contact" className="pb-10">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#91a7e3"
-          fill-opacity="1"
-          d="M0,192L80,197.3C160,203,320,213,480,186.7C640,160,800,96,960,80C1120,64,1280,96,1360,112L1440,128L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
-        ></path>
-      </svg>
+      
 
       <div className="w-9/12 mx-auto rounded-xl shadow-lg bg-white md:w-1/2">
         <div className="flex flex-col items-center">
@@ -20,22 +12,7 @@ const Contact = () => {
             Créons ensemble le projet qui vous ressemble
           </h3>
           <p>Lorem ipsum Lorem ipsum</p>
-          <div className="flex gap-x-2 mt-2 mb-8">
-            <a href="https://www.malt.fr/profile/ameladdoun">
-              <img
-                src={malt}
-                alt="logo malt"
-                className=" rounded-xl transition-all duration-300 w-8 hover:scale-110"
-              />
-            </a>
-            <a href="https://www.linkedin.com/in/amel-addoun-84a13519a">
-              <img
-                src={linkedin}
-                alt="logo linkedin"
-                className="rounded w-8  transition-all duration-300 hover:scale-110"
-              />
-            </a>
-          </div>
+          
           <p className="mb-2">Prenons rendez-vous et échangeons !</p>
           <a href="https://calendly.com/amel-addoun/30min" className="mb-4">
 

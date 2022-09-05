@@ -7,6 +7,7 @@ import Creations from '../Components/Creations.js';
 import Presentations from "../Components/Presentations"
 import Contact from '../Components/Contact';
 import Footer from '../Components/Footer';
+import Stats from '../Components/Stats'
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
             <Accueil/>
             <Collaborations/> 
             <Techniques />
+            <Stats />
             <Creations />
             <Presentations />
             <Contact />

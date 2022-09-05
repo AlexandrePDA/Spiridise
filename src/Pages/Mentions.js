@@ -339,6 +339,7 @@ const MentionsLegales = () => {
         des cas où la loi ne le permet pas, il est fait attribution exclusive de
         juridiction aux tribunaux compétents.
       </p>
+      <p><a href="https://www.flaticon.com/fr/icones-gratuites/ecrire" title="écrire icônes">Source d'icones</a></p>
       </div>
     </div>
   );

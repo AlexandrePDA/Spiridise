@@ -1,62 +1,102 @@
 import React from "react";
 
-const crea = [
-  {
-    name: "Recherches",
-    img: require("../assets/world.png"),
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias incidunt",
-  },
-  {
-    name: "Rédaction",
-    img: require("../assets/pinceau.png"),
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias incidunt",
-  },
-  {
-    name: "Envoi/Intégration",
-    img: require("../assets/envoi.png"),
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias incidunt",
-  },
-];
+
 
 const Creations = () => {
   return (
-    <div id="creations" className="flex flex-col items-center justify-center">
-      <h2 className="text-3xl mb-8 ">Parcours Création</h2>
+   
 
-      <div className="flex z-[-10] flex-col gap-x-8 lg:flex-row w-2/3 h-50 mb-12">
-        {crea.map((item, index) => (
-          <ul key={index}>
-            <li
-              className="flex p-4 mb-8 flex-col items-center justify-center h-full gap-y-4 rounded-lg shadow-lg bg-grey-s"
-              data-aos="zoom-in"
-              data-aos-delay="50"
-            >
-              <img
-                className="w-18 h-14 mb-1"
-                src={item.img}
-                alt="logo etape creations"
-              />
-              <div className="flex flex-col items-center justify-start text-center">
-                <h3 className="font-bold text-xl mb-2">{item.name}</h3>
-                <p className="">{item.text}</p>
-              </div>
-            </li>
-          </ul>
-        ))}
+    <section id="creations" class="text-gray-600 body-font">
+    <h2 className="text-center">Parcours</h2>
+  <div class="container px-5 py-24 mx-auto flex flex-wrap">
+    
+    {/* Brief */}
+    <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto z-[-20]">
+      <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+        <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
       </div>
-
-      <svg
-        className="w-full"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 1440 320"
-      >
-        <path
-          fill="#91a7e3"
-          fill-opacity="1"
-          d="M0,64L80,58.7C160,53,320,43,480,69.3C640,96,800,160,960,154.7C1120,149,1280,75,1360,37.3L1440,0L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
-        ></path>
-      </svg>
+      <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-orange-s text-white relative z-10 title-font font-medium text-sm">1</div>
+      <div class="flex-grow md:pl-8 pl-6 flex  sm:items-center items-start flex-col sm:flex-row" data-aos="zoom-in-up" data-aos-delay="75">
+        <div class="flex-shrink-0 w-24 h-24 shadow-xl border  border-gray-100 rounded-full inline-flex items-center justify-center">
+          <img src={require("../assets/Brief.png")} alt="logo recherches" className="w-2/4"/>
+        </div>
+        <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+          <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Brief</h2>
+          <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+        </div>
+      </div>
     </div>
+
+    {/* Recherches */}
+    <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto z-[-20]">
+      <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+        <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+      </div>
+      <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-orange-s text-white relative z-10 title-font font-medium text-sm">2</div>
+      <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row" data-aos="zoom-in-up" data-aos-delay="75">
+        <div class="flex-shrink-0 w-24 h-24 border border-gray-100 shadow-xl text-purple-500 rounded-full inline-flex items-center justify-center">
+          <img src={require("../assets/world.png")} alt="logo redaction" className="w-2/4"/>
+        </div>
+        <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+          <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Recherche</h2>
+          <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+        </div>
+      </div>
+    </div>
+
+    {/* Rédaction */}
+    <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto z-[-20]">
+      <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+        <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+      </div>
+      <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-orange-s text-white relative z-10 title-font font-medium text-sm">2</div>
+      <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row" data-aos="zoom-in-up" data-aos-delay="75">
+        <div class="flex-shrink-0 w-24 h-24 border border-gray-100 shadow-xl text-purple-500 rounded-full inline-flex items-center justify-center">
+          <img src={require("../assets/pinceau.png")} alt="logo redaction" className="w-2/4"/>
+        </div>
+        <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+          <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Rédaction</h2>
+          <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+        </div>
+      </div>
+    </div>
+
+    {/* Livraison */}
+    <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto z-[-20]">
+      <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+        <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+      </div>
+      <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-orange-s text-white relative z-10 title-font font-medium text-sm">3</div>
+      <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row" data-aos="zoom-in-up" data-aos-delay="75">
+        <div class="flex-shrink-0 w-24 h-24 border border-gray-100 shadow-xl text-purple-500 rounded-full inline-flex items-center justify-center">
+         <img src={require("../assets/envoi.png")} alt="logo livraison" className="w-2/4" />
+        </div>
+        <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+          <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Livraison</h2>
+          <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+        </div>
+      </div>
+    </div>
+
+    {/* Retouches */}
+    <div class="flex relative pb-10 sm:items-center md:w-2/3 mx-auto z-[-20]">
+      <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+        <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+      </div>
+      <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-orange-s text-white relative z-10 title-font font-medium text-sm">4</div>
+      <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row" data-aos="zoom-in-up" data-aos-delay="75">
+        <div class="flex-shrink-0 w-24 h-24 border border-gray-100 shadow-xl text-purple-500 rounded-full inline-flex items-center justify-center">
+          <img src={require("../assets/retouches.png")} alt="logo retouches" className="w-2/4"/>
+        </div>
+        <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+          <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Retouches</h2>
+          <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
   );
 };
 
