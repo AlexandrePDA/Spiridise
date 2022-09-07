@@ -8,7 +8,7 @@ import Typewriter from "typewriter-effect";
 const Techniques = () => {
   return (
     <div id="offres" className="flex flex-col justify-center items-center">
-      <div className="flex items-center justify-center lg:mr-10">
+      <div className="hidden lg:flex items-center justify-center lg:mr-10">
         <img
           src={woman}
           alt="woman offres"
@@ -51,8 +51,9 @@ const Techniques = () => {
       </div>
 
       <section className="text-gray-600 body-font z-[-25]" >
-        <h3 className="text-center">Vous avez des objectifs ? <br/> Nous vous proposons des solutions digitales et efficaces. <br/> Vous avez besoin de :</h3>
-        <div className="container px-5 py-24 mx-auto">
+        <h3 className="text-xl text-center  lg:text-3xl mx-2">Vous avez des objectifs ? <br/> Nous vous proposons des solutions digitales et efficaces.</h3>
+        <h4 className="text-center mt-4 text-lg lg:text-xl" >Vous avez besoin de :</h4>
+        <div className="container px-5 py-20 mx-auto">
           {/* Copywritting */}
           <div className="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col" data-aos="zoom-in-up" data-aos-delay="75"
      data-aos-duration="500">
