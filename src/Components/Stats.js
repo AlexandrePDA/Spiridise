@@ -2,6 +2,9 @@ import React from "react";
 import CountUp from 'react-countup';
 
 const Stats = () => {
+
+  
+
   return (
     <section class="text-gray-600 body-font z-[-20]">
       <div class="container px-5 pb-24 mx-auto">
@@ -31,7 +34,7 @@ const Stats = () => {
               </svg>
               <h2 class="title-font font-medium text-3xl text-gray-900">
                 +
-              <CountUp duration={2} delay={1} end={500} />
+              <CountUp duration={2} end={500} scrollSpyDelay={8} scrollSpyOnce={true}/>
                 K
               </h2>
               <p class="leading-relaxed">Mots rédigés</p>

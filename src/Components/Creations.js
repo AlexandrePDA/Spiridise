@@ -78,7 +78,7 @@ const Creations = () => {
             <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
           </div>
           <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-orange-s text-white relative z-10 title-font font-medium text-sm">
-            2
+            3
           </div>
           <div
             class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row"
@@ -109,7 +109,7 @@ const Creations = () => {
             <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
           </div>
           <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-orange-s text-white relative z-10 title-font font-medium text-sm">
-            3
+            4
           </div>
           <div
             class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row"
@@ -140,7 +140,7 @@ const Creations = () => {
             <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
           </div>
           <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-orange-s text-white relative z-10 title-font font-medium text-sm">
-            4
+            5
           </div>
           <div
             class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row"
