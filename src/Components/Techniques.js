@@ -71,7 +71,7 @@ const Techniques = () => {
               </h2>
               <h3 className="text-blue-s text-xl title-font font-medium mb-2">💪 Copywriting</h3>
               <p className="leading-relaxed text-base">
-                Utilisé dans les domaines du marketing digital et de la pub, le procédé du copywriting consiste à séduire afin de persuader ses prospects à passer à l'action.
+                Utilisé dans les domaines du marketing digital et de la publicité, le procédé du copywriting consiste à séduire afin de persuader ses prospects à passer à l'action.
               </p>
             </div>
           </div>
@@ -156,7 +156,7 @@ const Techniques = () => {
               </h2>
               <h3 className="text-blue-s text-xl title-font font-medium mb-2">👻 Ghostwriting</h3>
               <p className="leading-relaxed text-base">
-                Pas de fantôme ici, ne craignez rien. Le ghostwriting désigne la maîtrise, pour un auteur, de réécrire à la place de celui qui ne trouve pas les mots. Biographie, récit ou même thèse universitaire, multiples sont les cas de figure où l'on aurait bien besoin d'un petit coup de plume !
+                Pas de fantôme ici, ne craignez rien. Le ghostwriting désigne la compétence, pour un auteur, de réécrire à la place de celui qui ne trouve pas les mots. Biographie, récit ou même thèse universitaire, multiples sont les cas de figure où l'on aurait bien besoin d'un petit coup de plume !
               </p>
             </div>
             
