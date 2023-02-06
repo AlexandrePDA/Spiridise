@@ -5,10 +5,10 @@ const Presentations = () => {
   return (
 
     <section id="presentations">
-  <div class="mx-auto -z-10 max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
+  <div class="mx-auto  -z-10 max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
     <div class="grid grid-cols-1 -z-10 lg:h-screen lg:grid-cols-2">
       <div class="relative -z-10 lg:py-16">
-        <div class="relative h-64  sm:h-80 lg:h-full">
+        <div class="relative h-64 shadow-xl  sm:h-80 lg:h-full">
           <img
             alt="House"
             src={require("../assets/photo-profil.jpg")}            class="absolute inset-0 h-full w-full object-cover "
@@ -16,7 +16,7 @@ const Presentations = () => {
         </div>
       </div>
 
-      <div class="relative flex items-center -z-50 bg-gray-100">
+      <div class="relative shadow-lg flex items-center -z-50 bg-gray-100">
         <span
           class="hidden lg:absolute -z-50 lg:inset-y-0 lg:-left-16 lg:block lg:w-16 lg:bg-gray-100"
         ></span>

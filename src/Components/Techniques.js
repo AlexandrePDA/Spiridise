@@ -7,7 +7,7 @@ import Typewriter from "typewriter-effect";
 
 const Techniques = () => {
   return (
-    <div id="offres" className="flex flex-col justify-center items-center">
+    <div id="offres" className="flex flex-col  justify-center items-center">
       <div className="hidden lg:flex items-center justify-center lg:mr-10">
         <img
           src={woman}
@@ -41,18 +41,32 @@ const Techniques = () => {
           </h2>
           <div>
             <h3 className="text-xl text-center mx-2 lg:text-left lg:mx-0 lg:text-4xl">
-              Un large panel sur-mesure
+              Une offre sur-mesure
             </h3>
             <h4 className="text-xl text-center lg:text-left lg:text-4xl">
-              Pour tous vos projets 🚀
+              Pour chacun de vos projets 🚀
             </h4>
+            <h3 className="text-xl mt-4 text-center lg:text-left lg:text-xl">Prêt à atteindre vos objectifs ? <br/> Retrouvez nos solutions digitales et efficaces.</h3>
+            <h4 className="text-right mt-4 text-lg lg:text-xl" >Vous souhaitez :</h4>
+
           </div>
         </div>
       </div>
 
+          {/* Mobile */}
+      <div className="lg:hidden mt-10">
+            <h2 className="text-2xl text-center mx-2 font-bold">
+              Une offre <span className="bg-orange-s rounded-lg font-bold px-3 py-1 text-white">sur-mesure</span>
+            </h2>
+            <h2 className="text-2xl text-center  ">
+              Pour chacun de vos projets 🚀
+            </h2>
+            <h3 className="text-xl mt-4 text-center ">Prêt à atteindre vos objectifs ? <br/> Retrouvez nos solutions digitales et efficaces.</h3>
+            <h4 className="text-center mt-4 text-lg " >Vous souhaitez :</h4>
+
+          </div>
+
       <section className="text-gray-600 body-font z-[-25]" >
-        <h3 className="text-xl text-center  lg:text-3xl mx-2">Vous avez des objectifs ? <br/> Nous vous proposons des solutions digitales et efficaces.</h3>
-        <h4 className="text-center mt-4 text-lg lg:text-xl" >Vous avez besoin de :</h4>
         <div className="container px-5 py-20 mx-auto">
           {/* Copywritting */}
           <div className="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col" data-aos="zoom-in-up" data-aos-delay="75"

@@ -21,8 +21,9 @@ const Home = () => {
             <Stats />
             <Creations />
             <Presentations />
-            <Faq />
             <Contact />
+            <Faq />
+            
             <Footer />
         </div>
     );

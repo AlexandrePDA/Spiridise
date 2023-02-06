@@ -8,7 +8,7 @@ const Stats = () => {
   return (
     <section class="text-gray-600 body-font z-[-20]">
       <div class="container px-5 pb-24 mx-auto">
-        <div class="flex flex-col text-center w-full mb-20">
+        <div class="flex flex-col text-center w-full mb-20 hover:">
           <h2 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
             Des chiffres et des lettres
           </h2>

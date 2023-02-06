@@ -17,7 +17,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-blue-s h-14 w-full shadow-md fixed top-0 left-0">
+    <header className="bg-blue-s z-10 h-14 w-full shadow-md fixed top-0 left-0">
       <div className="md:flex items-center justify-between ">
         <div className="font-bold cursor-pointer flex items-center text-white">
           <img src={logo} alt="logo Spiridise" className="w-20" />

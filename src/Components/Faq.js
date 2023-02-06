@@ -11,10 +11,10 @@ const Faq = () => {
     return (
         
         
-        <section class="bg-white dark:bg-gray-900 mt-10">
+        <section class="bg-white dark:bg-gray-900 mt-40">
           
     <div class="container max-w-4xl px-6 py-10 mx-auto">
-        <h2 class="text-4xl font-semibold text-center text-gray-800 lg:text-3xl dark:text-white">FAQ 💡</h2>
+        <h2 class="text-xl font-semibold text-center text-gray-800 lg:text-5xl dark:text-white">FAQ 💡</h2>
     
 
         <div class="mt-12 space-y-8">
