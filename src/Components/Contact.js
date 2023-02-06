@@ -13,7 +13,6 @@ const Contact = () => {
 
             <p class="mt-3 text-gray-500 dark:text-gray-400">Our friendly team is always here to chat.</p>
         </div>
-
         <div class="grid grid-cols-1 gap-12 mt-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             <div class="p-4 rounded-lg border-b-4 border-orange-s shadow-xl md:p-6 dark:bg-gray-800">
                 <span class="inline-block p-3  rounded-lg bg-blue-100/80 dark:bg-gray-700">
