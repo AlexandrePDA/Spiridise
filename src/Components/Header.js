@@ -9,8 +9,10 @@ const Header = () => {
     { name: "Offres", link: "#offres" },
     { name: "Créations", link: "#creations" },
     { name: "Présentations", link: "#presentations" },
-    { name: "Blog", link: "/blog" },
+    
   ];
+
+  
 
   const handleClick = () => {
     setBurger(false);

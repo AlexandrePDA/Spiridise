@@ -13,12 +13,14 @@ const Footer = () => {
           <a href="#accueil" class="hover:text-black">
             Accueil
           </a>
-          <a href="/blog" class="hover:text-black">
+         
+          {/* 
+           <a href="/blog" class="hover:text-black">
             Blog
           </a>
           <a href="/Mentions" class="hover:text-black">
             Mentions Légales
-          </a>
+          </a> */}
         </nav>
       </div>
     </footer>
