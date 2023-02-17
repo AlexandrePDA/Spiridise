@@ -34,7 +34,7 @@ const Accueil = () => {
 
         <div className="w-full lg:flex   justify-center items-center   lg:w-1/2  hidden">
             <div>
-                <p className="text-6xl font-anton font-bold leading-relaxed">
+                <p className="text-6xl  font-bold leading-relaxed">
           IMAGINER. <br/>
           DÉVELOPPER. <br/>
           CRÉER. <br/>
