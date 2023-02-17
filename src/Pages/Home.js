@@ -9,13 +9,15 @@ import Contact from '../Components/Contact';
 import Footer from '../Components/Footer';
 import Stats from '../Components/Stats'
 import Faq from '../Components/Faq.js';
+import Test from '../Components/Test';
 
 
 const Home = () => {
     return (
         <div className="font-montserrat overflow-x-hidden">
             <Header/>
-            <Accueil/>
+            <Test/>
+            
             <Collaborations/> 
             <Techniques />
             <Stats />

@@ -9,6 +9,7 @@ module.exports = {
         'lobster': ['"Lobster Two"','cursive'],
         'dosis' : ['"Dosis"', 'cursive'],
         'montserrat' : ['"Montserrat"', 'cursive'],
+        'anton': ['"Anton"', 'cursive']
       },
       colors: {
         'orange-s' : '#f6853c',
