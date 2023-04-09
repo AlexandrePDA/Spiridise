@@ -15,7 +15,7 @@ const Techniques = () => {
           className="hidden md:z-[-10] lg:inline md:scale-x-[-1] md:w-6/12 md:max-w-xl"
         />
         <div className="flex flex-col">
-          <h2 className="text-5xl hidden text-white bg-orange-s z-[-100] lg:text-6xl lg:inline">
+          <h2 className="text-5xl hidden text-white bg-orange-s z-[-100] w-95 lg:text-6xl lg:inline">
             <Typewriter
               onInit={(typewriter) => {
                 typewriter
@@ -40,14 +40,10 @@ const Techniques = () => {
             />
           </h2>
           <div>
-            <h3 className="text-xl text-center mx-2 lg:text-left lg:mx-0 lg:text-4xl">
-              Une offre sur-mesure
+            <h3 className="text-xl text-center font-semibold mx-2 lg:text-left lg:mx-0 lg:text-4xl">
+              Retrouvez nos solutions digitales dédiées. 🚀
             </h3>
-            <h4 className="text-xl text-center lg:text-left lg:text-4xl">
-              Pour chacun de vos projets 🚀
-            </h4>
-            <h3 className="text-xl mt-4 text-center lg:text-left lg:text-xl">Prêt à atteindre vos objectifs ? <br/> Retrouvez nos solutions digitales et efficaces.</h3>
-            <h4 className="text-right mt-4 text-lg lg:text-xl" >Vous souhaitez :</h4>
+            <h3 className="text-xl mt-4 text-center font-semibold lg:text-left lg:text-2xl">Vous objectif est de :</h3>
 
           </div>
         </div>
@@ -56,13 +52,13 @@ const Techniques = () => {
           {/* Mobile */}
       <div className="lg:hidden mt-10">
             <h2 className="text-2xl text-center mx-2 font-bold">
-              Une offre <span className="bg-orange-s rounded-lg font-bold px-3 py-1 text-white">sur-mesure</span>
+              Une offre <span className="bg-orange-s rounded-lg font-semibold px-3 py-1 text-white">sur-mesure</span>
             </h2>
-            <h2 className="text-2xl text-center  ">
+            <h2 className="text-2xl font-semibold text-center  ">
               Pour chacun de vos projets 🚀
             </h2>
-            <h3 className="text-xl mt-4 text-center ">Prêt à atteindre vos objectifs ? <br/> Retrouvez nos solutions digitales et efficaces.</h3>
-            <h4 className="text-center mt-4 text-lg " >Vous souhaitez :</h4>
+            <h3 className="text-xl mt-4 text-center ">Retrouvez nos solutions digitales dédiées.</h3>
+            <h4 className="text-center mt-4 text-xl" >Vous objectif est de :</h4>
 
           </div>
 
@@ -85,7 +81,7 @@ const Techniques = () => {
               </h2>
               <h3 className="text-blue-s text-xl title-font font-medium mb-2">💪 Copywriting</h3>
               <p className="leading-relaxed text-base">
-                Utilisé dans les domaines du marketing digital et de la publicité, le procédé du copywriting consiste à séduire afin de persuader ses prospects à passer à l'action.
+                Utilisé dans les domaines du marketing digital et de la publicité, le procédé du copywriting consiste à persuader ses prospects de passer à l'action.
               </p>
             </div>
           </div>
@@ -106,7 +102,7 @@ const Techniques = () => {
               </h2>
               <h3 className="text-blue-s text-xl title-font font-medium mb-2">📈 SEO</h3>
               <p className="leading-relaxed text-base">
-                Appeler aussi référencement naturel, le SEO vise à améliorer le positionnement d'un site ou d'une page afin de lui permettre d'atteindre le Graal (aussi connu sous le nom de première page des résultats).
+                Aussi connu sous le nom de référencement naturel, le SEO vise à améliorer le positionnement d'un site web afin de lui permettre d'atteindre le Graal : la première page des résultats.
               </p>
             </div>
             
@@ -128,7 +124,7 @@ const Techniques = () => {
               </h2>
               <h3 className="text-blue-s text-xl title-font font-medium mb-2">💻 Rédaction web</h3>
               <p className="leading-relaxed text-base">
-                Cette technique généraliste permet de désigner tout type de rédaction utilisé sur le web. Elle est souvent à visé didactique et cherche à instruire son public (un peu comme maintenant).
+                Cette technique généraliste permet de désigner tout type de rédaction utilisée sur le web. Elle est souvent à visée didactique, c'est-à-dire qu'elle cherche à instruire le lecteur (un peu comme maintenant).
               </p>
             </div>
             
@@ -150,7 +146,7 @@ const Techniques = () => {
               </h2>
               <h3 className="text-blue-s text-xl title-font font-medium mb-2">👸🏻 Storytelling</h3>
               <p className="leading-relaxed text-base">
-                <span className="italic">Il était une fois ...</span> Oui mais non. Si cette méthode sert effectivement à narrer une histoire dans le but de créer un lien avec son lectorat, il faut tout de même que cela soit fait avec originalité et honnêteté.
+                <span className="italic">Il était une fois ...</span> Oui mais non. Si cette méthode sert à conter, elle doit le faire avec originalité et honnêteté. Car cette histoire, c'est la nôtre. 
               </p>
             </div>
           </div>

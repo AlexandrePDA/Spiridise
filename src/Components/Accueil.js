@@ -11,8 +11,7 @@ const Accueil = () => {
             </h2>
 
             <p className="mt-4 text-sm text-gray-500  lg:text-base">
-              Profitez d'une véritable expertise dans le domaine de la communication écrite : Spridise offre des solutions innovantes pour améliorer votre branding et accroître votre visibilité digitale.
-            </p>
+            Bénéficiez d'une véritable expertise dans le domaine de la communication digitale. Spiridise vous accompagne dans le déploiement d'une stratégie éditoriale numérique, destinée à améliorer votre branding et optimiser votre présence en ligne.             </p>
 
             <div className="flex flex-col -z-50 mt-6 space-y-3 lg:space-y-0 lg:flex-row">
               

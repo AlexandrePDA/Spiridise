@@ -21,6 +21,9 @@ module.exports = {
         'blue-s' : '#91a7e3',
         'grey-s' : '#F8F8F8',
       },
+      width: {
+        '95': '30rem'
+      }
     },
   },
   plugins: [],

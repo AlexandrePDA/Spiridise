@@ -35,7 +35,7 @@ const Faq = () => {
 
                 
                 {open1? <p className="p-8 text-sm text-gray-500 ">
-                    Si vous disposez d'un cahier des charges, vous me partager les détails de votre projet. Au contraire, si votre idée est encore floue, nous pouvons la travailler ensemble. Dans les deux cas, nous en discutons ensemble autour d'un appel, d'un visio, d'un mail ou d'un café. Je réalise ensuite le devis selon les termes convenus, et l'aventure peut commencer ! 🚀 
+                    Si vous disposez d'un cahier des charges, vous me partagez les détails de votre projet. Au contraire, si votre idée est encore floue, nous pouvons la travailler ensemble. Dans tous les cas, nous en discutons autour d'un appel, d'un visio, d'un mail ou d'un café. Une fois le contrat signé l'aventure peut commencer ! 🚀 
                 </p> : ""}
                 
             </div>
@@ -54,8 +54,7 @@ const Faq = () => {
 
                 
                 {open2?  <p className="p-8 text-sm text-gray-500 ">
-                    La tarification varie en fonction d'un certain nombre de paramètres : longueur, complexité du sujet, nature de la cible ... 
-                    N'hésitez pas à me contacter pour bénéficier d'un devis personnalisé. 
+                    Il n'existe pas de prix unique pour la rédaction d'un article. La tarification dépend de facteurs variés mentionnés dans le cahier des charges. Contactez-moi pour obtenir un devis personnalisé. 📩
                 </p> : ""}
                 
             </div>
@@ -63,7 +62,7 @@ const Faq = () => {
 
             <div className="border-2 border-gray-100 rounded-lg ">
                 <button className="flex items-center justify-between w-full p-8" onClick={() => setOpen3(!open3)}>
-                    <h1 className="font-semibold text-gray-700 ">Dans combien de temps aurais-je mon livrable ?</h1>
+                    <h1 className="font-semibold text-gray-700 ">Quand vais-je recevoir mes livrables ?</h1>
 
                     
                     {open3? <span className="text-gray-400 bg-gray-200 rounded-full" ><svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -75,7 +74,7 @@ const Faq = () => {
 
                 
                 {open3? <p className="p-8 text-sm text-gray-500 ">
-Vos livrables vous sont envoyés à la date convenue lors du devis. Des envois intermédiaires sont prévus tout au long de la mission afin d'assurer un suivi constant. </p> : ""}
+                À la date convenue lors de la signature du contrat. Des envois intermédiaires sont prévus tout au long de la mission afin de vous permettre un suivi constant de l'évolution de vos contenus. </p> : ""}
                 
             </div>
 
