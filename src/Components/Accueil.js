@@ -1,4 +1,5 @@
 import React from "react";
+import RotatingPyramid from "./Test.js";
 
 const Accueil = () => {
   return (
@@ -31,15 +32,9 @@ const Accueil = () => {
           </div>
         </div>
 
-        <div className="w-full lg:flex   justify-center items-center   lg:w-1/2  hidden">
+        <div className=" ">
             <div>
-                <p className="text-6xl  font-bold leading-relaxed">
-          IMAGINER. <br/>
-          DÉVELOPPER. <br/>
-          CRÉER. <br/>
-
-                </p>
-
+               
             </div>
         </div>
       </div>

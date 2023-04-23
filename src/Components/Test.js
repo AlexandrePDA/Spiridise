@@ -1,31 +1,89 @@
-import React, { useEffect, useState } from 'react';
-import { motion, useTransform, useViewportScroll } from 'framer-motion';
+import React, { useRef, useEffect } from "react";
+import * as THREE from "three";
 
-function TexteDefilant() {
-  const [scrollY, setScrollY] = useState(0);
-  const { scrollYProgress } = useViewportScroll();
+const Test = () => {
+const canvasRef = useRef(null);
 
-  useEffect(() => {
-    function handleScroll() {
-      setScrollY(window.scrollY);
-    }
-    window.addEventListener('scroll', handleScroll);
+useEffect(() => {
+// Créer une scène
+const scene = new THREE.Scene();
 
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+// Créer une caméra
+const camera = new THREE.PerspectiveCamera(
+  100,
+  window.innerWidth / window.innerHeight,
+  0.01,
+  100
+);
+camera.position.z = 10;
 
-  const x = useTransform(scrollYProgress, [0, 1], [-900, -500]);
-  const y = useTransform(scrollYProgress, [0, 1], [0, -1000]);
+// Créer un moteur de rendu
+const renderer = new THREE.WebGLRenderer({ canvas: canvasRef.current });
+renderer.setSize(window.innerWidth, window.innerHeight);
+renderer.setClearColor(0xffffff); // Définir la couleur de fond du rendu
 
-  return (
-    <div style={{ height: '200vh' }}>
-      <motion.div style={{ x, y }}>
-        <h1>Ce texte défile en fonction de la direction du scroll !</h1>
-      </motion.div>
-    </div>
-  );
-}
+// Créer une pyramide
+const radius = 4;
+const height = 5;
+const geometry = new THREE.CylinderGeometry(0, radius, height, 4, 1, true);
+const material = new THREE.MeshBasicMaterial({
+  color: 0x4c69aa, // Couleur aretes
+  wireframe: true, // Afficher les arêtes en fil de fer
+  wireframeLinewidth: 1, // Epaisseur des arêtes
+});
+const pyramid = new THREE.Mesh(geometry, material);
+scene.add(pyramid);
 
-export default TexteDefilant;
+ // créer cercles
+ const circles = [];
+ for (let i = 0; i < 3; i++) {
+   const geometry = new THREE.CircleGeometry(0.5, 32);
+   const material = new THREE.MeshBasicMaterial({
+     color: i === 0 ? 0xffeb7d : 0xd7a1ca, // couleur différente pour chaque cercle
+   });
+   const circle = new THREE.Mesh(geometry, material);
+   // Positionner les cercles différemment
+  if (i === 0) {
+    circle.position.x = 0;
+    circle.position.y = 3.7;
+  } else if (i === 1) {
+    circle.position.x = 5.5;
+    circle.position.y = -3;
+  } else if (i === 2) {
+    circle.position.x = -5.5;
+    circle.position.y = -3;
+  }
+   scene.add(circle);
+   circles.push(circle);
+ }
+ 
+// Animer la pyramide
+const animate = () => {
+  requestAnimationFrame(animate);
+
+  // Faire tourner la pyramide sur elle-même
+ 
+  pyramid.rotation.y += 0.01;
+ 
+  
+
+  
+
+  // Rendre la scène
+  renderer.render(scene, camera);
+};
+
+animate();
+
+ // Nettoyer la scène et les écouteurs d'événement à la fin de l'utilisation
+ return () => {
+  scene.remove(pyramid);
+  renderer.dispose();
+};
+
+}, []);
+
+return <canvas ref={canvasRef} />;
+};
+
+export default Test;
