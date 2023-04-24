@@ -1,11 +1,11 @@
 import React from "react";
-import RotatingPyramid from "./Test.js";
+import Test from "./Test";
 
 const Accueil = () => {
   return (
     <section id="accueil" className="text-gray-600 body-font w-screen lg:h-3/6 mt-24 lg:mt-16 ">
       <div className="lg:flex">
-        <div className="flex items-center justify-center w-full px-6 py-8 lg:h-[32rem] lg:w-1/2">
+        <div className="flex flex-col items-center justify-center w-full px-6 py-8 lg:h-[32rem] lg:w-1/2">
           <div className="max-w-xl">
             <h2 className="text-3xl font-semibold text-gray-800 lg:text-left text-center  leading-10 lg:text-4xl">
               Écrivons <span className="bg-orange-s rounded-lg font-bold px-3  text-white">maintenant</span> <br/> les mots de demain 💫
@@ -32,9 +32,9 @@ const Accueil = () => {
           </div>
         </div>
 
-        <div className=" ">
+        <div className=" w-1/2">
             <div>
-               
+               <Test/>
             </div>
         </div>
       </div>

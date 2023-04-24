@@ -16,7 +16,6 @@ import Test from '../Components/Test.js';
 const Home = () => {
     return (
         <div className="font-montserrat overflow-x-hidden">
-            <Test/>
             <Header/>
             <Accueil/>
             <Collaborations/> 
