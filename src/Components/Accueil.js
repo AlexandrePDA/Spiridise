@@ -1,6 +1,5 @@
 import React from "react";
 import RotatingPyramid from "./Test";
-import Portoflio from '../assets/Portfolio2023.pdf';
 
 const Accueil = () => {
 
@@ -21,14 +20,13 @@ const Accueil = () => {
             Bénéficiez d'une véritable expertise dans le domaine de la
             communication digitale. Spiridise vous accompagne dans le déploiement
             d'une stratégie éditoriale numérique, destinée à améliorer votre
-            branding et optimiser votre présence en ligne.
+            branding et à optimiser votre présence en ligne.
           </p>
 
           <div className="flex flex-col 2xl:flex-row mt-6 space-y-3 2xl:space-y-0 2xl:space-x-6">
             <a
-              href={Portoflio}
+              href="#contact"
               className="shadow-xl text-center bg-gray-100 font-bold py-2 px-6 rounded-xl duration-300 hover:bg-white"
-              download
             >
               Consulter nos rédactions
             </a>
