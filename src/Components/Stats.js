@@ -28,10 +28,10 @@ const Stats = () => {
        <div className="container bg-blue-light-s   md:rounded-lg md:shadow-2xl px-6 py-12 mt-5 mx-auto">
       <div className="container px-5 pb-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-10">
-          <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out"  className="sm:text-3xl text-2xl font-semibold title-font mb-4 text-gray-900">
+          <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out"  className="text-3xl lg:text-4xl font-semibold title-font mb-4 text-gray-600">
             Des <span className="bg-orange-s rounded-lg font-bold px-3  text-white">lettres</span><br/>
           </h2>
-          <h2 data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="500" className="sm:text-3xl text-2xl font-semibold title-font mb-4 text-gray-900">
+          <h2 data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="500" className="text-3xl lg:text-4xl font-semibold title-font mb-4 text-gray-600">
          & des <span className="bg-orange-s rounded-lg font-bold px-3  text-white">chiffres</span>
           </h2> 
             
@@ -66,7 +66,7 @@ const Stats = () => {
               <div>
               
               <h2 className="title-font font-medium text-3xl text-gray-900">
-                {estVisible && <CountUp duration={2} end={50} />}
+                +{estVisible && <CountUp duration={2} end={50} />}
               </h2>
               <p className="leading-relaxed">Collaborations 👥</p>
 

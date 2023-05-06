@@ -22,7 +22,7 @@ const Presentations = () => {
         ></span>
 
         <div className="p-8 -z-50 sm:p-16 lg:p-24">
-          <h2 className="text-2xl -z-50 font-bold sm:text-3xl">
+          <h2 className="text-2xl text-gray-700 -z-50 font-bold sm:text-3xl">
            Derrière Spiridise, l'envie de rendre accessible le pouvoir des mots bien choisis 🚀
 
           </h2>

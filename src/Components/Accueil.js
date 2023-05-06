@@ -7,33 +7,33 @@ const Accueil = () => {
   
 
   return (
-    <section id="accueil" className="text-gray-600 body-font mt-5">
+    <section id="accueil" className=" body-font mt-5">
       <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center justify-center px-8 2xl:px-24 py-8 2xl:py-32">
         <div className="2xl:w-1/2 2xl:pr-16">
-          <h1 className="text-3xl lg:text-4xl font-semibold text-gray-800 text-center 2xl:text-left leading-10">
+          <h1 className="text-3xl lg:text-4xl font-semibold text-gray-600 text-center 2xl:text-left leading-10">
             Écrivons
-            <span className="bg-orange-s mx-2 rounded-lg font-bold px-3 text-white">
+            <span className="bg-orange-s mx-2  rounded-lg font-bold px-3 text-white">
               maintenant
             </span>
             <br /> les mots de demain 💫
           </h1>
-          <p className="mt-4 text-sm 2xl:text-base text-gray-500 2xl:max-w-md">
+          <p className="mt-4 text-xl text-grey-subtitle-s 2xl:text-justify text-center 2xl:max-w-md">
             Bénéficiez d'une véritable expertise dans le domaine de la
             communication digitale. Spiridise vous accompagne dans le déploiement
             d'une stratégie éditoriale numérique, destinée à améliorer votre
             branding et à optimiser votre présence en ligne.
           </p>
 
-          <div className="flex flex-col 2xl:flex-row mt-6 space-y-3 2xl:space-y-0 2xl:space-x-6">
+          <div className="flex flex-col justify-center items-center 2xl:flex-row mt-6 space-y-3 2xl:space-y-0 2xl:space-x-6">
             <a
               href={Portfolio}
-              className="shadow-xl text-center bg-gray-100 font-bold py-2 px-6 rounded-xl duration-300 hover:bg-white"
+              className="shadow-xl max-w-sm w-3/4 text-center text-gray-600 bg-gray-100 font-bold py-2 px-6 rounded-xl duration-300 hover:bg-white"
             >
-              Consulter nos rédactions
+              Découvrir&nbsp;&nbsp;nos&nbsp;&nbsp;contenus
             </a>
             <a
               href="#contact"
-              className="shadow-xl text-center bg-gray-100 font-bold py-2 px-6 rounded-xl duration-300 hover:bg-white"
+              className="shadow-xl max-w-sm w-3/4 text-center text-gray-600 bg-gray-100 font-bold py-2 px-6 rounded-xl duration-300 hover:bg-white"
             >
               Passer à l'action
             </a>

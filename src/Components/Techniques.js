@@ -40,10 +40,10 @@ const Techniques = () => {
             />
           </h2>
           <div>
-            <h3 className="text-xl text-center font-semibold mx-2 lg:text-left lg:mx-0 lg:text-4xl">
-              Retrouvez nos solutions digitales dédiées. 🚀
+            <h3 className="text-3xl lg:text-4xl text-center font-semibold text-gray-600 mx-2 lg:text-left lg:mx-0 ">
+              Retrouvez nos solutions digitales dédiées 🚀
             </h3>
-            <h3 className="text-xl mt-4 text-center font-semibold lg:text-left lg:text-2xl">Votre objectif est de :</h3>
+            <h3 className="text-xl mt-4 text-center text-grey-subtitle-s lg:text-left lg:text-2xl">Votre objectif est de :</h3>
 
           </div>
         </div>
@@ -51,14 +51,14 @@ const Techniques = () => {
 
           {/* Mobile */}
       <div className="lg:hidden mt-10">
-            <h2 className="text-2xl text-center mx-2 font-bold">
+            <h2 className="text-2xl text-center mx-2 font-semibold text-gray-600">
               Une offre <span className="bg-orange-s rounded-lg font-semibold px-3 py-1 text-white">sur-mesure</span>
             </h2>
-            <h2 className="text-2xl font-semibold text-center  ">
+            <h2 className="text-2xl font-semibold text-center  text-gray-600">
               Pour chacun de vos projets 🚀
             </h2>
-            <h3 className="text-xl mt-4 text-center ">Retrouvez nos solutions digitales dédiées.</h3>
-            <h4 className="text-center text-xl" >Votre objectif est de :</h4>
+            <h3 className="text-xl mt-4 text-center text-grey-subtitle-s">Retrouvez nos solutions digitales dédiées</h3>
+            <h4 className="text-center text-xl text-grey-subtitle-s" >Votre objectif est de :</h4>
 
           </div>
 

@@ -7,7 +7,7 @@ const Contact = () => {
     <section id="contact" className=" mt-12 pt-8">
     <div className="container bg-blue-light-s  md:rounded-lg md:shadow-2xl px-6 py-12 mt-5 mx-auto">
         <div>
-            <h2 className="mt-2 text-2xl text-center font-semibold text-gray-800 md:text-3xl ">C'est le <span className="bg-orange-s rounded-lg font-bold px-3 py-1 text-white">moment</span> de faire connaissance 🤝</h2>
+            <h2 className="mt-2 text-2xl text-center font-semibold text-gray-600 md:text-3xl ">C'est le <span className="bg-orange-s rounded-lg font-bold px-3 py-1 text-white">moment</span> de faire connaissance 🤝</h2>
 
         </div>
         <div className="grid grid-cols-1 gap-12 mt-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
