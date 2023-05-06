@@ -7,7 +7,7 @@ const Collaborations = () => {
   
   return (
     
-    <div className="h-64 mx-auto relative w-4/5 grid place-items-center z-[-1] overflow-hidden slider">
+    <div className="h-64 mt-[-7rem] mx-auto relative w-4/5 grid place-items-center z-[-1] overflow-hidden slider">
        
       <div className="flex w-[calc(400px_*_12)] slider-track">
 
@@ -17,6 +17,9 @@ const Collaborations = () => {
           <img src={require("../assets/logos-marques/adeo.png")} alt="logo adeo" className="h-30 w-28"/>
         </div>
         <div className="flex items-center p-4">
+          <img src={require("../assets/logos-marques/logo-FR.png")} alt="logo Freelance Republiik" className="h-30 w-28"/>
+        </div>
+        <div className="flex items-center p-4">
           <img src={require("../assets/logos-marques/arsen.png")} alt="logo arsen" className="h-30 w-28"/>
         </div >
         <div className="flex items-center p-4 ">
@@ -41,6 +44,9 @@ const Collaborations = () => {
         
         <div className="flex items-center p-4">
           <img src={require("../assets/logos-marques/adeo.png")} alt="logo adeo" className="h-30 w-28"/>
+        </div>
+        <div className="flex items-center p-4">
+          <img src={require("../assets/logos-marques/logo-FR.png")} alt="logo Freelance Republiik" className="h-30 w-28"/>
         </div>
         <div className="flex items-center p-4">
           <img src={require("../assets/logos-marques/arsen.png")} alt="logo arsen" className="h-30 w-28"/>
@@ -70,6 +76,9 @@ const Collaborations = () => {
           <img src={require("../assets/logos-marques/adeo.png")} alt="logo adeo" className="h-30 w-28"/>
         </div>
         <div className="flex items-center p-4">
+          <img src={require("../assets/logos-marques/logo-FR.png")} alt="logo Freelance Republiik" className="h-30 w-28"/>
+        </div>
+        <div className="flex items-center p-4">
           <img src={require("../assets/logos-marques/arsen.png")} alt="logo arsen" className="h-30 w-28"/>
         </div >
         <div className="flex items-center p-4 ">
@@ -97,6 +106,9 @@ const Collaborations = () => {
           <img src={require("../assets/logos-marques/adeo.png")} alt="logo adeo" className="h-30 w-28"/>
         </div>
         <div className="flex items-center p-4">
+          <img src={require("../assets/logos-marques/logo-FR.png")} alt="logo Freelance Republiik" className="h-30 w-28"/>
+        </div>
+        <div className="flex items-center p-4">
           <img src={require("../assets/logos-marques/arsen.png")} alt="logo arsen" className="h-30 w-28"/>
         </div>
         <div className="flex items-center p-4 ">
@@ -123,6 +135,9 @@ const Collaborations = () => {
         
         <div className="flex items-center p-4">
           <img src={require("../assets/logos-marques/adeo.png")} alt="logo adeo" className="h-30 w-28"/>
+        </div>
+        <div className="flex items-center p-4">
+          <img src={require("../assets/logos-marques/logo-FR.png")} alt="logo Freelance Republiik" className="h-30 w-28"/>
         </div>
         <div className="flex items-center p-4">
           <img src={require("../assets/logos-marques/arsen.png")} alt="logo arsen" className="h-30 w-28"/>
@@ -149,6 +164,9 @@ const Collaborations = () => {
        
         <div className="flex items-center p-4">
           <img src={require("../assets/logos-marques/adeo.png")} alt="logo adeo" className="h-30 w-28"/>
+        </div>
+        <div className="flex items-center p-4">
+          <img src={require("../assets/logos-marques/logo-FR.png")} alt="logo Freelance Republiik" className="h-30 w-28"/>
         </div>
         <div className="flex items-center p-4">
           <img src={require("../assets/logos-marques/arsen.png")} alt="logo arsen" className="h-30 w-28"/>

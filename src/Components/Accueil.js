@@ -1,13 +1,13 @@
 import React from "react";
-import Test from "./Test";
+import RotatingPyramid from "./Test";
 
 const Accueil = () => {
   return (
-    <section id="accueil" className="text-gray-600 body-font w-screen lg:h-3/6 mt-24 lg:mt-16 ">
-      <div className="lg:flex">
-        <div className="flex flex-col items-center justify-center w-full px-6 py-8 lg:h-[32rem] lg:w-1/2">
+    <section id="accueil" className="text-gray-600 body-font w-screen 2xl:h-3/6 mt-24 2xl:mt-16 ">
+      <div className="flex flex-col 2xl:flex-row">
+        <div className="flex items-center justify-center w-full py-8 2xl:mt-16 2xl:mx-[10rem] 2xl:h-[32rem] 2xl:w-1/2">
           <div className="max-w-xl">
-            <h2 className="text-3xl font-semibold text-gray-800 lg:text-left text-center  leading-10 lg:text-4xl">
+            <h2 className="text-3xl font-semibold text-gray-800 2xl:text-left text-center  leading-10 2xl:text-4xl">
               Écrivons <span className="bg-orange-s rounded-lg font-bold px-3  text-white">maintenant</span> <br/> les mots de demain 💫
             </h2>
 
@@ -32,10 +32,10 @@ const Accueil = () => {
           </div>
         </div>
 
-        <div className=" w-1/2">
-            <div>
-               <Test/>
-            </div>
+        <div className="flex items-center justify-center z-[-15] 2xl:ml-[-20rem] 2xl:pl-50">
+          <div className="w-33 h-33 2xl:w-auto 2xl:h-auto">
+            <RotatingPyramid/>
+          </div>
         </div>
       </div>
     </section>
