@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import RotatingPyramid from "./Test";
 import Portfolio from '../assets/Portfolio2023.pdf'
 
