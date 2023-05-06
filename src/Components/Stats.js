@@ -25,6 +25,7 @@ const Stats = () => {
 
   return (
     <section ref={divRef} className="text-gray-600 body-font mt-12 z-[-20]">
+       <div className="container bg-blue-light-s   md:rounded-lg md:shadow-2xl px-6 py-12 mt-5 mx-auto">
       <div className="container px-5 pb-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-10">
           <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out"  className="sm:text-3xl text-2xl font-semibold title-font mb-4 text-gray-900">
@@ -39,9 +40,9 @@ const Stats = () => {
         <div className="flex flex-wrap -m-4 text-center">
 
           
-          <div className="p-4 md:w-1/4 sm:w-1/2 w-full z-[-20]" data-aos="zoom-in"
+          <div className="p-4 md:w-1/4 sm:w-1/2 w-full " data-aos="zoom-in"
               data-aos-delay="50">
-            <div className="border-2 flex justify-center items-center  border-gray-100 px-4 py-6 h-52 rounded-lg shadow-lg">
+            <div className="border-2 flex justify-center items-center  bg-white px-4 py-6 h-52 rounded-lg shadow-lg">
               <div className="flex-col">
               <h2 className="title-font font-medium text-3xl text-gray-900">
                 +
@@ -57,11 +58,11 @@ const Stats = () => {
 
 
           <div
-            className="p-4 md:w-1/4 sm:w-1/2 w-full z-[-20]"
+            className="p-4 md:w-1/4 sm:w-1/2 w-full"
             data-aos="zoom-in"
               data-aos-delay="50"
           >
-            <div className="border-2 flex justify-center items-center border-gray-100 px-4 py-6 h-52 rounded-lg shadow-lg">
+            <div className="border-2 flex justify-center items-center bg-white px-4 py-6 h-52 rounded-lg shadow-lg">
               <div>
               
               <h2 className="title-font font-medium text-3xl text-gray-900">
@@ -75,14 +76,14 @@ const Stats = () => {
 
 
           <div
-            className="p-4 md:w-1/4 sm:w-1/2 w-full z-[-20]"
+            className="p-4 md:w-1/4 sm:w-1/2 w-full"
             data-aos="zoom-in"
               data-aos-delay="50"
           >
-            <div className="border-2 flex justify-center items-center border-gray-100 px-4 py-6 h-52 rounded-lg shadow-lg">
+            <div className="border-2 flex justify-center items-center bg-white px-4 py-6 h-52 rounded-lg shadow-lg">
              <div>
               <h2 className="title-font font-medium text-3xl text-gray-900">
-                {estVisible && <CountUp duration={2} end={15} />}
+                +{estVisible && <CountUp duration={2} end={20} />}
                 </h2>
               <p className="leading-relaxed">Sujets couverts 📚</p>
 
@@ -94,11 +95,11 @@ const Stats = () => {
 
 
           <div
-            className="p-4 md:w-1/4 sm:w-1/2 w-full z-[-20]"
+            className="p-4 md:w-1/4 sm:w-1/2 w-full"
             data-aos="zoom-in"
               data-aos-delay="50"
           >
-            <div className="border-2 flex justify-center items-center border-gray-100  h-52 px-4 py-6 rounded-lg shadow-lg">
+            <div className="border-2 flex justify-center items-center bg-white   h-52 px-4 py-6 rounded-lg shadow-lg">
              <div>
 
               <h2 className="title-font font-medium text-3xl text-gray-900">
@@ -111,7 +112,7 @@ const Stats = () => {
           </div>
         </div>
       </div>
-      
+      </div>
     </section>
   );
 };

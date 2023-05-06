@@ -20,6 +20,7 @@ module.exports = {
         'purple-s' : '#6e4371',
         'blue-s' : '#91a7e3',
         'grey-s' : '#F8F8F8',
+        'blue-light-s': '#C3D0F3',
       },
       width: {
         '95': '30rem'
