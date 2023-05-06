@@ -43,7 +43,7 @@ const Techniques = () => {
             <h3 className="text-xl text-center font-semibold mx-2 lg:text-left lg:mx-0 lg:text-4xl">
               Retrouvez nos solutions digitales dédiées. 🚀
             </h3>
-            <h3 className="text-xl mt-4 text-center font-semibold lg:text-left lg:text-2xl">Vous objectif est de :</h3>
+            <h3 className="text-xl mt-4 text-center font-semibold lg:text-left lg:text-2xl">Votre objectif est de :</h3>
 
           </div>
         </div>
