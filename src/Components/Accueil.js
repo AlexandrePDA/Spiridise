@@ -3,12 +3,12 @@ import RotatingPyramid from "./Test";
 
 const Accueil = () => {
   return (
-    <section id="accueil" className="text-gray-600 body-font">
+    <section id="accueil" className="text-gray-600 body-font mt-5">
       <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center justify-center px-8 2xl:px-24 py-8 2xl:py-32">
         <div className="2xl:w-1/2 2xl:pr-16">
           <h1 className="text-3xl lg:text-4xl font-semibold text-gray-800 text-center 2xl:text-left leading-10">
             Écrivons
-            <span className="bg-orange-s rounded-lg font-bold px-3 text-white">
+            <span className="bg-orange-s mx-2 rounded-lg font-bold px-3 text-white">
               maintenant
             </span>
             <br /> les mots de demain 💫
