@@ -24,7 +24,7 @@ const Stats = () => {
   
 
   return (
-    <section ref={divRef} className="text-gray-600 body-font z-[-20]">
+    <section ref={divRef} className="text-gray-600 body-font mt-12 z-[-20]">
       <div className="container px-5 pb-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-10">
           <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out"  className="sm:text-3xl text-2xl font-semibold title-font mb-4 text-gray-900">

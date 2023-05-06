@@ -3,7 +3,7 @@ import logo from "../assets/logo-spiridise.png";
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-blue-s">
+    <footer className="w-full bg-blue-s mt-12">
       <div className="mx-auto max-w-7xl  flex w-full flex-col-reverse items-center justify-between space-y-6 space-y-reverse px-4 py-10 text-lg font-medium text-white md:flex-row md:items-start md:space-y-0">
         <div className="flex items-center space-x-4">
           <img src={logo} alt="logo spiridise" className="w-20" />

@@ -7,7 +7,7 @@ const Collaborations = () => {
   
   return (
     
-    <div className="h-64  mx-auto relative w-4/5 grid place-items-center z-[-1] overflow-hidden slider">
+    <div className="h-64 mt-12 mx-auto relative w-4/5 grid place-items-center z-[-1] overflow-hidden slider">
        
       <div className="flex w-[calc(400px_*_12)] slider-track">
 
