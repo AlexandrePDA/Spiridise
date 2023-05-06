@@ -7,7 +7,7 @@ import Typewriter from "typewriter-effect";
 
 const Techniques = () => {
   return (
-    <div id="offres" className="flex flex-col mt-12 justify-center items-center">
+    <div id="offres" className="flex flex-col mt-12 pt-10 justify-center items-center">
       <div className="hidden lg:flex items-center justify-center lg:mr-10">
         <img
           src={woman}

@@ -4,7 +4,7 @@ import React from "react";
 const Presentations = () => {
   return (
 
-    <section id="presentations" className="mt-12">
+    <section id="presentations" className="mt-12 pt-10">
   <div className="mx-auto  -z-10 max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
     <div className="grid grid-cols-1 -z-10 lg:h-screen lg:grid-cols-2">
       <div className="relative -z-10 lg:py-16">
