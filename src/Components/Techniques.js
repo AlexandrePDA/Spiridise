@@ -58,7 +58,7 @@ const Techniques = () => {
               Pour chacun de vos projets 🚀
             </h2>
             <h3 className="text-xl mt-4 text-center ">Retrouvez nos solutions digitales dédiées.</h3>
-            <h4 className="text-center mt-4 text-xl" >Vous objectif est de :</h4>
+            <h4 className="text-center text-xl" >Votre objectif est de :</h4>
 
           </div>
 
