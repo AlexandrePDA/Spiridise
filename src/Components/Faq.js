@@ -13,7 +13,7 @@ const Faq = () => {
         
         <section className="bg-white mt-40">
           
-    <div className="container max-w-4xl px-6 py-10 mx-auto">
+    <div className="container max-w-4xl px-6 py-4 mx-auto">
         <h2 className="text-3xl lg:text-4xl font-semibold text-center text-gray-600 ">FAQ 💡</h2>
     
 
