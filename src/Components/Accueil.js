@@ -1,5 +1,6 @@
 import React from "react";
 import RotatingPyramid from "./Test";
+import Portfolio from '../assets/Portfolio2023.pdf'
 
 const Accueil = () => {
 
@@ -25,7 +26,7 @@ const Accueil = () => {
 
           <div className="flex flex-col 2xl:flex-row mt-6 space-y-3 2xl:space-y-0 2xl:space-x-6">
             <a
-              href="#contact"
+              href={Portfolio}
               className="shadow-xl text-center bg-gray-100 font-bold py-2 px-6 rounded-xl duration-300 hover:bg-white"
             >
               Consulter nos rédactions
