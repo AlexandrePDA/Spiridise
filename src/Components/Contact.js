@@ -4,8 +4,8 @@ import React from "react";
 const Contact = () => {
   return (
 
-    <section id="contact" className=" mt-12 pt-10 bg-blue-light-s ">
-    <div className="container   md:rounded-lg md:shadow-2xl px-6 py-12 mt-5 mx-auto">
+    <section id="contact" className=" mt-12 pt-10  ">
+    <div className="container bg-blue-light-s  md:rounded-lg md:shadow-2xl px-6 py-12 mt-5 mx-auto">
         <div>
             <h2 className="mt-2 text-2xl text-center font-semibold text-gray-800 md:text-3xl ">C'est le <span className="bg-orange-s rounded-lg font-bold px-3 py-1 text-white">moment</span> de faire connaissance 🤝</h2>
 

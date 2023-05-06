@@ -2,7 +2,7 @@ import React from "react";
 
 const Creations = () => {
   return (
-    <section id="creations" className="text-gray-600 mt-12 body-font pt-10">
+    <section id="creations" className="text-gray-600 mt-12 body-font pt-8">
       <h2 className="text-center font-semibold w-full px-4  mx-auto my-20 text-2xl">
                 Profitez d'une véritable expertise dans le domaine de la <span className="bg-orange-s rounded-lg font-bold px-3 py-1 text-white">communication digitale</span>
       </h2>
