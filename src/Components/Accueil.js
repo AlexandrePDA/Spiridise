@@ -3,38 +3,46 @@ import RotatingPyramid from "./Test";
 
 const Accueil = () => {
   return (
-    <section id="accueil" className="text-gray-600 body-font w-screen 2xl:h-3/6 mt-24 2xl:mt-16 ">
-      <div className="flex flex-col 2xl:flex-row">
-        <div className="flex items-center justify-center w-full py-8 2xl:mt-16 2xl:mx-[10rem] 2xl:h-[32rem] 2xl:w-1/2">
-          <div className="max-w-xl">
-            <h2 className="text-3xl font-semibold text-gray-800 2xl:text-left text-center  leading-10 2xl:text-4xl">
-              Écrivons <span className="bg-orange-s rounded-lg font-bold px-3  text-white">maintenant</span> <br/> les mots de demain 💫
-            </h2>
+    <section id="accueil" className="text-gray-600 body-font">
+      <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center justify-center px-8 2xl:px-24 py-8 2xl:py-32">
+        <div className="2xl:w-1/2 2xl:pr-16">
+          <h1 className="text-3xl lg:text-4xl font-semibold text-gray-800 text-center 2xl:text-left leading-10">
+            Écrivons
+            <span className="bg-orange-s rounded-lg font-bold px-3 text-white">
+              maintenant
+            </span>
+            <br /> les mots de demain 💫
+          </h1>
+          <p className="mt-4 text-sm 2xl:text-base text-gray-500 2xl:max-w-md">
+            Bénéficiez d'une véritable expertise dans le domaine de la
+            communication digitale. Spiridise vous accompagne dans le déploiement
+            d'une stratégie éditoriale numérique, destinée à améliorer votre
+            branding et optimiser votre présence en ligne.
+          </p>
 
-            <p className="mt-4 text-sm text-gray-500  lg:text-base">
-            Bénéficiez d'une véritable expertise dans le domaine de la communication digitale. Spiridise vous accompagne dans le déploiement d'une stratégie éditoriale numérique, destinée à améliorer votre branding et optimiser votre présence en ligne.             </p>
-
-            <div className="flex flex-col -z-50 mt-6 space-y-3 lg:space-y-0 lg:flex-row">
-              
-              <a
-                href="#presentation"
-                className="shadow-xl  text-center bg-gray-100 font-bold py-2 px-6 rounded-xl duration-300 md:ml-8 md:mr-8  hover:bg-white"
-              >
-                Consulter nos rédactions
-              </a>
-              <a
-                href="#contact"
-                className="shadow-xl text-center bg-gray-100 font-bold py-2 px-6 rounded-xl duration-300 md:ml-8 md:mr-8  hover:bg-white"
-              >
-                Passer à l'action 
-              </a>
-            </div>
+          <div className="flex flex-col 2xl:flex-row mt-6 space-y-3 2xl:space-y-0 2xl:space-x-6">
+            <a
+              href="#presentation"
+              className="shadow-xl text-center bg-gray-100 font-bold py-2 px-6 rounded-xl duration-300 hover:bg-white"
+            >
+              Consulter nos rédactions
+            </a>
+            <a
+              href="#contact"
+              className="shadow-xl text-center bg-gray-100 font-bold py-2 px-6 rounded-xl duration-300 hover:bg-white"
+            >
+              Passer à l'action
+            </a>
           </div>
         </div>
 
-        <div className="flex items-center justify-center z-[-15] 2xl:ml-[-20rem] 2xl:pl-50">
-          <div className="w-33 h-33 2xl:w-auto 2xl:h-auto">
-            <RotatingPyramid/>
+        <div className="hidden 2xl:inline 2xl:w-1/2 2xl:pl-16">
+          <div className="w-full h-0 relative pb-[100%]">
+            <div className="absolute top-0 right-0 bottom-0 left-0 flex items-center justify-center z-[-15]">
+              <div className="w-40 h-40 2xl:w-auto 2xl:h-auto opacity-70">
+                <RotatingPyramid />
+              </div>
+            </div>
           </div>
         </div>
       </div>
