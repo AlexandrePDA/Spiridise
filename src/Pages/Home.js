@@ -18,7 +18,7 @@ const Home = () => {
     return (
         <div className="font-montserrat overflow-x-hidden">
             <Header/>
-            <div className="2xl:hidden flex justify-center opacity-70 mx-auto mt-[-10rem]">
+            <div className="2xl:hidden flex justify-center opacity-70 mx-auto mt-[-5rem]">
             <Test/>
             </div>
             <Accueil/>
