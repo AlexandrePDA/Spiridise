@@ -146,7 +146,7 @@ const Techniques = () => {
               </h2>
               <h3 className="text-blue-s text-xl title-font font-medium mb-2">👸🏻 Storytelling</h3>
               <p className="leading-relaxed text-base">
-                <span className="italic">Il était une fois ...</span> Oui mais non. Si cette méthode sert à conter, elle doit le faire avec originalité et honnêteté. Car cette histoire, c'est la nôtre. 
+                <span className="italic">Il était une fois ...</span> Oui mais non. Si cette méthode sert à conter, elle doit le faire avec originalité et honnêteté. Car cette histoire, c'est la vôtre. 
               </p>
             </div>
           </div>

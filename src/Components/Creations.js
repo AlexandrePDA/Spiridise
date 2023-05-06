@@ -4,10 +4,10 @@ const Creations = () => {
   return (
     <section id="creations" className="text-gray-600 mt-12 body-font pt-6">
       <h2 className="text-center font-semibold w-full px-4  mx-auto my-20 text-2xl">
-                Profitez d'une véritable expertise dans le domaine de la <span className="bg-orange-s rounded-lg font-bold px-3 py-1 text-white">communication digitale</span>
+                Expert de la <span className="bg-orange-s rounded-lg font-bold px-3 py-1 text-white">communication&nbsp;&nbsp;digitale</span>
       </h2>
       <p className="text-center text-2xl w-full px-4 mx-auto sm:w-2/5">
-        Spiridise vous accompagne dans le déploiement d'une stratégie éditoriale numérique innovante et qui vous ressemble.
+        Spiridise vous accompagne dans le déploiement d'une stratégie éditoriale numérique qui vous ressemble.
       </p>
       <div className="container px-5 py-24 mx-auto flex flex-wrap">
         {/* Brief */}

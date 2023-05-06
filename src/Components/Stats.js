@@ -29,10 +29,10 @@ const Stats = () => {
       <div className="container px-5 pb-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-10">
           <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out"  className="sm:text-3xl text-2xl font-semibold title-font mb-4 text-gray-900">
-            Des <span className="bg-orange-s rounded-lg font-bold px-3  text-white">lettres</span> ... <br/>
+            Des <span className="bg-orange-s rounded-lg font-bold px-3  text-white">lettres</span><br/>
           </h2>
           <h2 data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="500" className="sm:text-3xl text-2xl font-semibold title-font mb-4 text-gray-900">
-          Mais aussi des <span className="bg-orange-s rounded-lg font-bold px-3  text-white">chiffres</span>
+         & des <span className="bg-orange-s rounded-lg font-bold px-3  text-white">chiffres</span>
           </h2> 
             
           
