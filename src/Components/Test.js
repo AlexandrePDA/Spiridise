@@ -16,7 +16,7 @@ const Test = () => {
     0.01,
     100
   );
-  camera.position.z = 8;
+  camera.position.z = 10;
   
   // Créer un moteur de rendu
   const renderer = new THREE.WebGLRenderer({ canvas: canvasRef.current });
