@@ -3,7 +3,7 @@ import React from "react";
 const Creations = () => {
   return (
     <section id="creations" className="text-gray-600 mt-20 body-font pt-6">
-      <h2 className="text-center font-semibold w-full px-4  mx-auto mt-20 text-3xl lg:text-4xl leading-snug">
+      <h2 className="text-center font-semibold w-full px-4  mx-auto mt-20 text-2xl lg:text-4xl leading-snug">
                 Expert de la <span className="bg-orange-s rounded-lg font-bold px-3 py-1 text-white">communication&nbsp;&nbsp;digitale</span>
       </h2>
       <p className="text-center text-grey-subtitle-s text-2xl mt-4 w-full px-6 mx-auto ">
