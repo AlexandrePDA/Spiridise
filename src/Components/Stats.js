@@ -42,7 +42,7 @@ const Stats = () => {
           
           <div className="p-4 md:w-1/4 sm:w-1/2 w-full " data-aos="zoom-in"
               data-aos-delay="50">
-            <div className="border-2 flex justify-center items-center  bg-white px-4 py-6 h-52 rounded-lg shadow-lg">
+            <div className="border-2 flex justify-center items-center border-gray-100   bg-white px-4 py-6 h-52 rounded-lg shadow-lg">
               <div className="flex-col">
               <h2 className="title-font font-medium text-3xl text-gray-900">
                 +
@@ -62,7 +62,7 @@ const Stats = () => {
             data-aos="zoom-in"
               data-aos-delay="50"
           >
-            <div className="border-2 flex justify-center items-center bg-white px-4 py-6 h-52 rounded-lg shadow-lg">
+            <div className="border-2 flex justify-center items-center border-gray-100  bg-white px-4 py-6 h-52 rounded-lg shadow-lg">
               <div>
               
               <h2 className="title-font font-medium text-3xl text-gray-900">
@@ -80,7 +80,7 @@ const Stats = () => {
             data-aos="zoom-in"
               data-aos-delay="50"
           >
-            <div className="border-2 flex justify-center items-center bg-white px-4 py-6 h-52 rounded-lg shadow-lg">
+            <div className="border-2 flex justify-center items-center border-gray-100  bg-white px-4 py-6 h-52 rounded-lg shadow-lg">
              <div>
               <h2 className="title-font font-medium text-3xl text-gray-900">
                 +{estVisible && <CountUp duration={2} end={20} />}
@@ -95,11 +95,11 @@ const Stats = () => {
 
 
           <div
-            className="p-4 md:w-1/4 sm:w-1/2 w-full"
+            className="p-4 md:w-1/4 sm:w-1/2 w-full border-gray-100 "
             data-aos="zoom-in"
               data-aos-delay="50"
           >
-            <div className="border-2 flex justify-center items-center bg-white   h-52 px-4 py-6 rounded-lg shadow-lg">
+            <div className="border-2 flex justify-center items-center border-gray-100  bg-white   h-52 px-4 py-6 rounded-lg shadow-lg">
              <div>
 
               <h2 className="title-font font-medium text-3xl text-gray-900">

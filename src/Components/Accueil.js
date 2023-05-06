@@ -1,7 +1,11 @@
 import React from "react";
 import RotatingPyramid from "./Test";
+import Portoflio from '../assets/Portfolio2023.pdf';
 
 const Accueil = () => {
+
+  
+
   return (
     <section id="accueil" className="text-gray-600 body-font mt-5">
       <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center justify-center px-8 2xl:px-24 py-8 2xl:py-32">
@@ -22,8 +26,9 @@ const Accueil = () => {
 
           <div className="flex flex-col 2xl:flex-row mt-6 space-y-3 2xl:space-y-0 2xl:space-x-6">
             <a
-              href="#presentation"
+              href={Portoflio}
               className="shadow-xl text-center bg-gray-100 font-bold py-2 px-6 rounded-xl duration-300 hover:bg-white"
+              download
             >
               Consulter nos rédactions
             </a>
