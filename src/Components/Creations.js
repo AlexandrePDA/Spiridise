@@ -7,7 +7,7 @@ const Creations = () => {
                 Expert de la <span className="bg-orange-s rounded-lg font-bold px-3 py-1 text-white">communication&nbsp;&nbsp;digitale</span>
       </h2>
       <p className="text-center text-grey-subtitle-s text-2xl mt-4 w-full px-6 mx-auto ">
-        Spiridise vous accompagne dans le déploiement d'une stratégie éditoriale numérique qui vous ressemble.
+        Spiridise vous accompagne dans le déploiement d'une stratégie de communication digitale qui vous ressemble.
       </p>
       <div className="container px-5 py-24 mx-auto flex flex-wrap">
         {/* Brief */}
@@ -36,9 +36,7 @@ const Creations = () => {
               </h2>
               <p className="leading-relaxed">
                 Ensemble, nous convenons d'un cahier des charges détaillé selon
-                vos attentes. Ainsi, vous êtes libre de déterminer la tonalité
-                du texte, son registre, la technique employée et le style
-                d'écriture.
+                vos attentes. Nous adaptons notre discours à votre audience cible, ainsi qu'aux supports de destination : blog, médias sociaux ... 
               </p>
             </div>
           </div>
@@ -70,8 +68,7 @@ const Creations = () => {
               </h2>
               <p className="leading-relaxed">
                 En fonction de vos besoins, nous effectuons des recherches
-                poussés sur votre sujet afin de le traiter de la manière la
-                plus claire et exhaustive possible.
+                poussées afin de concevoir un contenu web de qualité, pertinent et créatif.
               </p>
             </div>
           </div>
@@ -102,7 +99,8 @@ const Creations = () => {
                 Rédaction
               </h2>
               <p className="leading-relaxed">
-                C'est ici que s'opère la magie ... ✨ <br/> Nous créons votre contenu selon les directives que vous nous fournissez. 
+                C'est ici que s'opère la magie ... ✨ 
+                <br/> Nous créons votre contenu selon les directives que vous nous fournissez. 
               </p>
             </div>
           </div>
@@ -164,7 +162,7 @@ const Creations = () => {
                 Retouches
               </h2>
               <p className="leading-relaxed">
-                Parce que les modifications de dernière minute sont fréquentes, nous proposons des retouches comprises dans le devis initial, pour un budget maîtrisé en toutes circonstances.
+                Pour garantir votre satisfaction, nous proposons des retouches comprises dans le devis initial, pour un budget maîtrisé en toutes circonstances.
               </p>
             </div>
           </div>

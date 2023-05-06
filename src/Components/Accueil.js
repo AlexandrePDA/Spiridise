@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import RotatingPyramid from "./Test";
 import Portfolio from '../assets/Portfolio2023.pdf'
 
+
 const Accueil = () => {
 
+ 
   
 
   return (
@@ -17,7 +19,7 @@ const Accueil = () => {
             </span>
             <br /> les mots de demain 💫
           </h1>
-          <p className="mt-4 text-xl text-grey-subtitle-s 2xl:text-justify text-center 2xl:max-w-md">
+          <p className="mt-4 mb-12 2xl:mb-4 text-xl text-grey-subtitle-s 2xl:text-justify text-center 2xl:max-w-md">
             Bénéficiez d'une véritable expertise dans le domaine de la
             communication digitale. Spiridise vous accompagne dans le déploiement
             d'une stratégie éditoriale numérique, destinée à améliorer votre

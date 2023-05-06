@@ -81,7 +81,7 @@ const Techniques = () => {
               </h2>
               <h3 className="text-blue-s text-xl title-font font-medium mb-2">💪 Copywriting</h3>
               <p className="leading-relaxed text-base">
-                Utilisé dans les domaines du marketing digital et de la publicité, le procédé du copywriting consiste à persuader ses prospects de passer à l'action.
+                Utilisé dans les domaines du marketing de contenu et de la publicité digitale, le copywriting consiste à persuader ses prospects de passer à l'action.
               </p>
             </div>
           </div>
@@ -102,7 +102,7 @@ const Techniques = () => {
               </h2>
               <h3 className="text-blue-s text-xl title-font font-medium mb-2">📈 SEO</h3>
               <p className="leading-relaxed text-base">
-                Aussi connu sous le nom de référencement naturel, le SEO vise à améliorer le positionnement d'un site web afin de lui permettre d'atteindre le Graal : la première page des résultats.
+                Aussi connu sous le nom de référencement naturel, l'optimisation SEO vise à améliorer le positionnement d'un site web afin de lui permettre d'atteindre le Graal : la première page des résultats.
               </p>
             </div>
             
@@ -146,7 +146,7 @@ const Techniques = () => {
               </h2>
               <h3 className="text-blue-s text-xl title-font font-medium mb-2">👸🏻 Storytelling</h3>
               <p className="leading-relaxed text-base">
-                <span className="italic">Il était une fois ...</span> Oui mais non. Si cette méthode sert à conter, elle doit le faire avec originalité et honnêteté. Car cette histoire, c'est la vôtre. 
+                <span className="italic">Il était une fois ...</span> Oui mais non. Si cette méthode sert à conter, elle doit le faire avec originalité et honnêteté. Bien amenée, la rédaction créative nourrit l'image de votre marque. Car cette histoire, c'est la vôtre. 
               </p>
             </div>
           </div>
@@ -166,7 +166,7 @@ const Techniques = () => {
               </h2>
               <h3 className="text-blue-s text-xl title-font font-medium mb-2">👻 Ghostwriting</h3>
               <p className="leading-relaxed text-base">
-                Pas de fantôme ici, ne craignez rien. Le ghostwriting désigne la compétence, pour un auteur, de réécrire à la place de celui qui ne trouve pas les mots. Biographie, récit ou même thèse universitaire, multiples sont les cas de figure où l'on aurait bien besoin d'un petit coup de plume !
+                Pas de fantôme ici, ne craignez rien. Le ghostwriting désigne la compétence, pour un auteur, d'écrire à la place de celui qui ne trouve pas les mots. Biographie, récit ou même thèse universitaire, multiples sont les cas de figure où l'on aurait bien besoin d'un petit coup de plume !
               </p>
             </div>
             

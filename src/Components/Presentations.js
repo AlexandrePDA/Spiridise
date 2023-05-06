@@ -30,7 +30,7 @@ const Presentations = () => {
           <p className="mt-4 -z-50 text-gray-600 text-justify">
 Biberonnée au plaisir des belles lettres, j'ai toujours aimé être au service des mots. Cela fait plus de trois (belles) années que j’ai décidé d’ouvrir Spiridise, la solution rédaction pour les entreprises qui visent à étendre leur visibilité sur le web.<br/>
 Après un parcours universitaire naturellement orienté vers une licence de Lettres Modernes puis un Master II de Science Politique, j'ai pu développer mes compétences rédactionnelles, mon esprit critique et mes capacités analytiques.<br/>
-Aujourd’hui, j’accompagne des entreprises quotidiennement dans le but de développer leur image de marque et de les aider à transmettre les messages qui leur tiennent à cœur. 
+Aujourd’hui, j’accompagne les entreprises pour les aider à développer leur image de marque et à transmettre les messages qui leur tiennent à cœur. 
 
 
           </p>
