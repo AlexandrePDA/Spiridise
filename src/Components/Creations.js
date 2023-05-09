@@ -6,7 +6,7 @@ const Creations = () => {
       <h2 className="text-center font-semibold w-full px-4  mx-auto mt-20 text-2xl lg:text-4xl leading-snug">
                 Expert de la <span className="bg-orange-s rounded-lg font-bold px-3 py-1 text-white">communication&nbsp;&nbsp;digitale</span>
       </h2>
-      <p className="text-center text-grey-subtitle-s text-2xl mt-4 w-full px-6 mx-auto ">
+      <p className="text-center text-grey-subtitle-s text-xl mt-4 w-full px-6 mx-auto ">
         Spiridise vous accompagne dans le déploiement d'une stratégie de communication digitale qui vous ressemble.
       </p>
       <div className="container px-5 py-24 mx-auto flex flex-wrap">
