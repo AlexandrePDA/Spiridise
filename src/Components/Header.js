@@ -6,9 +6,9 @@ const Header = () => {
   const [burger, setBurger] = useState(false);
 
   const links = [
-    { name: "Offre", link: "#offres" },
+    { name: "Offres", link: "#offres" },
     { name: "Créations", link: "#creations" },
-    { name: "Présentations", link: "#presentations" },
+    { name: "Présentation", link: "#presentations" },
     
   ];
 
