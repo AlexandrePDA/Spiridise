@@ -19,10 +19,10 @@ const Home = () => {
     return (
         <div className="font-montserrat overflow-x-hidden">
             <Header/>
+            <Accueil/>
             <div className="2xl:hidden flex justify-center opacity-70 mx-auto mt-[-2rem]">
             <Test/>
             </div>
-            <Accueil/>
             <Collaborations/> 
             <Techniques />
             <Stats />
