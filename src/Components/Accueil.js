@@ -4,10 +4,6 @@ import Portfolio from '../assets/Portfolio2023.pdf'
 
 
 const Accueil = () => {
-
- 
-  
-
   return (
     <section id="accueil" className=" body-font mt-5">
       <div className="container mx-auto flex flex-col lg:flex-row items-center justify-center px-8 mt-32 2xl:mt-0 2xl:px-24 py-8 2xl:py-32">

@@ -6,8 +6,8 @@ const Creations = () => {
       <h2 className="text-center font-semibold w-full px-4  mx-auto mt-20 text-2xl lg:text-4xl leading-snug">
                 Expert de la <span className="bg-orange-s rounded-lg font-bold px-3 py-1 text-white">communication&nbsp;&nbsp;digitale</span>
       </h2>
-      <p className="text-center text-grey-subtitle-s text-xl mt-4 w-full px-6 mx-auto ">
-        Bénéficiez d'un accompagnement sur-mesure, pour une stratégie de communication digitale qui vous ressemble.
+      <p className="text-center text-grey-subtitle-s text-xl mt-4 w-full px-12 lg:px-28 mx-auto ">
+        Profitez d'une stratégie de communication digitale qui vous ressemble grâce à nos accompagnements sur-mesure. 
       </p>
       <div className="container px-5 py-24 mx-auto flex flex-wrap">
         {/* Brief */}
