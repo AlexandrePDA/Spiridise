@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import jsonArticles from "../Components/BLOG/articles.json";
 import CardsBlog from "../Components/BLOG/CardsBlog";
-import Header from "../Components/Header";
+import HeaderBlog from "../Components/BLOG/HeaderBlog";
 import Footer from "../Components/Footer";
 
 const Blog = () => {
@@ -41,13 +41,16 @@ const Blog = () => {
 
   return (
     <div>
-      <Header />
+      <HeaderBlog />
       <div className="flex-wrap px-4 mt-32 ">
+      <a href="/" className=" text-5xl text-red">
+        <ion-icon name="arrow-back-circle-outline"></ion-icon>
+      </a>
         <h1 className="text-4xl sm:mx-8">Blog ⚡️</h1>
 
-        <div className="flex sm:mx-8">
-          <h2>Filtrez votre recherche :</h2>
-          <select value={filter} onChange={handleOptionChange}>
+        <div className="flex mt-2 flex-col sm:mx-8">
+          <h2 className="my-4">🔎 Filtrez votre recherche :</h2>
+          <select className="w-1/2 border shadow" value={filter} onChange={handleOptionChange}>
             <option value="">Toutes catégories</option>
             {options.map((item, index) => (
               <option key={index} value={item}>

@@ -18,6 +18,7 @@ const CardsBlog = (item, index) => {
             </svg>
           </a>
         </div>
+        <p className="text-gray-300 text-sm">Publié le {item.props.date}</p>
       </div>
       </div>
 
