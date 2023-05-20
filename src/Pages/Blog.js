@@ -1,55 +1,69 @@
-import React from 'react';
-
+import React, { useEffect, useState } from "react";
+import jsonArticles from "../Components/BLOG/articles.json";
+import CardsBlog from "../Components/BLOG/CardsBlog";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 
 const Blog = () => {
-    return (
-        <div className="w-screen h-screen overflow-hidden bg-blue-s flex items-center justify-center">
-            {/* <a href="/" className="absolute top-3 left-3 text-5xl text-white"><ion-icon name="arrow-back-circle-outline"></ion-icon></a> */}
-            <section>
-  <div class="px-4 py-16 mx-auto max-w-screen-2xl sm:px-6 lg:px-8">
-    <div class="grid grid-cols-1 lg:grid-cols-2 lg:h-screen">
-      <div class="relative z-10 lg:py-16">
-        <div class="relative h-64 sm:h-80 lg:h-full">
-          <img
-            class="absolute inset-0 object-cover w-full h-full"
-            src={require("../assets/section-blog.png")}
-            alt="Indoors house"
-          />
+  const [jsonData, setJsonData] = useState([]);
+  const [filter, setFilter] = useState("");
+  
+  {/* CATEGORIES A AJOUTER A CHAQUE AJOUT D'UNE NOUVELLE CATEGORIE*/}
+  const options = ['Banque', 'Ressources humaines'];
+  
+
+
+  const fetchPosts = async (filter) => {
+    try {
+      if(filter !== "")
+      {
+        const filteredData = jsonArticles.filter((item) => item.category === filter);
+        setJsonData(filteredData);
+      }
+      else setJsonData(jsonArticles);
+    } catch (error) {
+      console.error("Erreur de fetch :", error);
+    }
+  };
+
+
+
+  const handleOptionChange = (event) => {
+    setFilter(event.target.value);
+  };
+
+  useEffect(() => {
+    fetchPosts(filter);
+    console.log("changement");
+  }, [filter]);
+
+  console.log(filter);
+
+  return (
+    <div>
+      <Header />
+      <div className="flex-wrap px-4 mt-32 ">
+        <h1 className="text-4xl sm:mx-8">Blog ⚡️</h1>
+
+        <div className="flex sm:mx-8">
+          <h2>Filtrez votre recherche :</h2>
+          <select value={filter} onChange={handleOptionChange}>
+            <option value="">Toutes catégories</option>
+            {options.map((item, index) => (
+              <option key={index} value={item}>
+                {item}
+              </option>
+            ))}
+          </select>
         </div>
+
+        {jsonData.map((item, index) => (
+          <CardsBlog props={item} key={index} />
+        ))}
       </div>
-
-      <div class="relative flex items-center ">
-        <span
-          class="hidden lg:inset-y-0 lg:absolute lg:w-16  lg:block lg:-left-16"
-        ></span>
-
-        <div class="p-8 sm:p-16 lg:p-24">
-          <h2 class="text-2xl font-bold sm:text-3xl">
-            Bientôt disponible 🚀
-          </h2>
-
-          <p class="mt-4 text-gray-600">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid,
-            molestiae! Quidem est esse numquam odio deleniti, beatae, magni
-            dolores provident quaerat totam eos, aperiam architecto eius quis
-            quibusdam fugiat dicta.
-          </p>
-
-          <a
-            class="inline-block px-12 py-3 mt-8 text-sm font-medium text-white bg-indigo-600 border border-indigo-600 rounded active:text-indigo-500 hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring"
-            href="/"
-          >
-            Découvrir
-          </a>
-        </div>
-      </div>
+      <Footer />
     </div>
-  </div>
-</section>
-
-           
-        </div>
-    );
+  );
 };
 
 export default Blog;

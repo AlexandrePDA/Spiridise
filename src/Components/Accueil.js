@@ -5,7 +5,7 @@ import Portfolio from '../assets/Portfolio2023.pdf'
 
 const Accueil = () => {
   return (
-    <section id="accueil" className=" body-font mt-5">
+    <section id="accueil" className=" body-font mt-5 mb-8">
       <div className="container mx-auto flex flex-col lg:flex-row items-center justify-center px-8 mt-32 2xl:mt-0 2xl:px-24 py-8 2xl:py-32">
         <div className="2xl:w-1/2 2xl:pr-16">
           <h1 className="text-3xl lg:text-4xl font-semibold text-gray-600 text-center 2xl:text-left leading-10">
