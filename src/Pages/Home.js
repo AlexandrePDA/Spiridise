@@ -10,7 +10,7 @@ import Footer from '../Components/Footer';
 import Stats from '../Components/Stats'
 import Faq from '../Components/Faq.js';
 import Test from '../Components/Test.js';
-
+import { Analytics } from '@vercel/analytics/react';
 
 
 
@@ -32,7 +32,9 @@ const Home = () => {
             <Faq />
             
             <Footer />
+            <Analytics />
         </div>
+        
     );
 };
 
